@@ -1,47 +1,85 @@
-# Astro Starter Kit: Minimal
+# VisionAid
 
-```sh
-npm create astro@latest -- --template minimal
-```
+**Empowering Vision Through Technology**
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+An AI-powered accessibility application designed to assist visually impaired individuals through advanced computer vision and natural language processing technologies.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🎯 Overview
 
-## 🚀 Project Structure
+VisionAid is an innovative mobile application that transforms the way visually impaired users interact with their environment. By leveraging cutting-edge AI technologies, the app provides real-time assistance for daily navigation and interaction challenges.
 
-Inside of your Astro project, you'll see the following folders and files:
+## ✨ Key Features
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### 📝 Text Recognition
+- **Advanced OCR Technology**: Real-time text scanning and recognition
+- **Arabic Translation**: Seamless translation support for Arabic text
+- **AI-Powered Summaries**: Intelligent text summarization for better comprehension
+- **Voice Output**: Clear audio feedback for all recognized text
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### 🎯 Object Detection
+- **Real-Time Recognition**: Live identification of objects in the environment
+- **Spatial Audio Guidance**: Directional audio cues to locate objects
+- **Distance Estimation**: Accurate distance calculations for safe navigation
+- **Custom Object Training**: Personalized object recognition capabilities
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### 🌍 Scene Description
+- **Environmental Analysis**: Comprehensive AI-powered scene understanding
+- **Weather Detection**: Automatic identification of weather conditions
+- **Context-Aware Descriptions**: Intelligent, situational scene narration
+- **Landmark Recognition**: Identification of important environmental markers
 
-Any static assets, like images, can be placed in the `public/` directory.
+### ⚠️ Hazard Detection
+- **Real-Time Safety Alerts**: Instant detection of potential dangers
+- **Obstacle Identification**: Recognition of physical barriers and hazards
+- **Vehicle Detection**: Moving vehicle identification and tracking
+- **Audio Warnings**: Immediate voice alerts for safety-critical situations
 
-## 🧞 Commands
+## 🏗️ Technology Stack
 
-All commands are run from the root of the project, from a terminal:
+- **Computer Vision**: Advanced ML models for image processing
+- **Natural Language Processing**: AI-powered text analysis and translation
+- **Audio Processing**: Spatial audio and voice synthesis
+- **Mobile Development**: Cross-platform mobile application
+- **Cloud AI Services**: Scalable backend processing
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 🎯 Target Users
 
-## 👀 Want to learn more?
+- Individuals with visual impairments
+- Accessibility advocates and organizations
+- Healthcare professionals working with visually impaired patients
+- Educational institutions supporting inclusive learning
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 🏆 Recognition
+
+**19th IEEE Student Day Competition Entry**
+- Developed as part of the IEEE Student Day Competition
+- Focus on innovative accessibility solutions
+- Academic research collaboration with University of Dubai
+
+## 👥 Development Team
+
+**Developers**
+- Binyam Mamo - Backend Developer
+- Dagim Medhanit - Frontend Developer
+- Michael Dessie - Backend Developer
+- Samuel Dereje - AI Research Engineer
+
+**Academic Supervisors**
+- Dr. Nour Osama Abdallah Aburaed - University of Dubai
+- Dr. Eman Salamah Abu Shabab - University of Dubai
+
+## 🌟 Impact
+
+VisionAid aims to enhance independence and quality of life for visually impaired individuals by providing:
+- **Enhanced Mobility**: Safer navigation through complex environments
+- **Improved Independence**: Reduced reliance on external assistance
+- **Better Communication**: Seamless text reading and translation capabilities
+- **Increased Confidence**: Real-time environmental awareness and safety
+
+## 📱 Availability
+
+Currently in development phase. The application will be available on mobile platforms upon completion.
+
+---
+
+*Dedicated to creating inclusive technology that empowers everyone to navigate the world with confidence.*

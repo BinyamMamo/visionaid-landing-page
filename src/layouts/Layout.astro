@@ -1,0 +1,87 @@
+---
+// src/layouts/Layout.astro
+import "../styles/global.css";
+
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "AI-powered accessibility app with text recognition, object detection, scene description, and hazard detection.",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Inter Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Meta tags for SEO -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+
+    <title>{title}</title>
+  </head>
+  <body
+    class="font-inter text-white bg-gradient-to-br from-black via-gray-900 to-black overflow-x-hidden"
+  >
+    <slot />
+
+    <style is:global>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      .gradient-text {
+        background: linear-gradient(135deg, #ffffff 0%, #cccccc 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .feature-card {
+        animation: fadeInUp 0.6s ease forwards;
+      }
+
+      .feature-card:nth-child(2) {
+        animation-delay: 0.1s;
+      }
+
+      .feature-card:nth-child(3) {
+        animation-delay: 0.2s;
+      }
+
+      .feature-card:nth-child(4) {
+        animation-delay: 0.3s;
+      }
+
+      .social-icon {
+        transition: all 0.3s ease;
+      }
+
+      .social-icon:hover {
+        transform: translateY(-2px) scale(1.1);
+      }
+    </style>
+  </body>
+</html>
