@@ -49,7 +49,7 @@ const Team = () => {
       name: "Dagim Medhanit",
       avatar: (
         <img
-          src="/assets/images/dagim.png"
+          src="/assets/images/dagim.jpg"
           className="w-full h-full object-cover"
           alt="Dagim Medhanit"
         />
@@ -95,19 +95,31 @@ const Team = () => {
     {
       id: 1,
       name: "Dr. Nour Osama Abdallah Aburaed",
-      avatar: "👩‍🏫",
+      avatar: (
+        <img
+          src="/assets/images/dr_nour.png"
+          className="w-full h-full object-cover"
+          alt="Michael Dessie"
+        />
+      ),
       social: {
-        linkedin: "#",
-        email: "nour.aburaed@ud.ac.ae",
+        linkedin: "https://www.linkedin.com/in/nour-aburaed",
+        email: "noaburaed@ud.ac.ae",
       },
     },
     {
       id: 2,
       name: "Dr. Eman Salamah Abu Shabab",
-      avatar: "👩‍🏫",
+      avatar: (
+        <img
+          src="/assets/images/dr_eman.png"
+          className="w-full h-full object-cover"
+          alt="Michael Dessie"
+        />
+      ),
       social: {
-        linkedin: "#",
-        email: "eman.abushabab@ud.ac.ae",
+        linkedin: "https://www.linkedin.com/in/eman-salamah-80aa3119b",
+        email: "eshabab@ud.ac.ae",
       },
     },
   ];
