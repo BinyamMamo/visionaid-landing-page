@@ -57,7 +57,7 @@ const Team = () => {
       social: {
         twitter: "#",
         github: "https://github.com/dagimed",
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/dagim-medhanit",
         email: "dagimedhanit@gmail.com",
       },
     },
@@ -73,9 +73,9 @@ const Team = () => {
       ),
       social: {
         twitter: "#",
-        github: "https://github.com/samueldereje96",
-        linkedin: "#",
-        email: "michael@visionaid.com",
+        github: "https://github.com/MichaelGelaw",
+        linkedin: "https://www.linkedin.com/in/michael-gelaw-010809325",
+        email: "michaeldessie96@gmail.com",
       },
     },
     {
@@ -90,9 +90,9 @@ const Team = () => {
       ),
       social: {
         twitter: "#",
-        github: "#",
-        linkedin: "#",
-        email: "samuel@visionaid.com",
+        github: "https://github.com/samueldereje96",
+        linkedin: "https://www.linkedin.com/in/samuel-d-tadesse-8b3531290",
+        email: "samueldereje1996@gmail.com",
       },
     },
   ];
