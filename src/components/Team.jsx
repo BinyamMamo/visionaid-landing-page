@@ -81,7 +81,13 @@ const Team = () => {
     {
       id: 4,
       name: "Samuel Dereje",
-      avatar: "👨‍🔬",
+      avatar: (
+        <img
+          src="/assets/images/samuel.jpg"
+          className="w-full h-full object-cover"
+          alt="Michael Dessie"
+        />
+      ),
       social: {
         twitter: "#",
         github: "#",
