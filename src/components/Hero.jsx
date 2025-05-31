@@ -11,16 +11,22 @@ const Hero = () => {
   }, []);
 
   const handleDownload = () => {
-    alert(
-      "Thank you for your interest! VisionAid is currently in development. Please check back soon for download availability."
-    );
+    // alert(
+    //   "Thank you for your interest! VisionAid is currently in development. Please check back soon for download availability."
+    // );
+    const link = document.createElement("a");
+    link.href = "/assets/user_manual.pdf";
+    link.download = "visionaid user manual.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="fixed inset-0 bg-gradient-radial"></div>
 
-      <div className="max-w-7xl mx-auto px-5 relative z-10 mt-28 md:mt-0">
+      <div className="max-w-7xl mx-auto px-5 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 items-center">
           <div
             className={`text-center lg:col-span-2 lg:text-left transition-all duration-1000 ${

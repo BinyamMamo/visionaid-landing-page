@@ -6,9 +6,12 @@ const Download = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleDownload = () => {
-    alert(
-      "Thank you for your interest! VisionAid is currently in development. Please check back soon for download availability."
-    );
+    const link = document.createElement("a");
+    link.href = "/assets/user_manual.pdf";
+    link.download = "visionaid user manual.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (

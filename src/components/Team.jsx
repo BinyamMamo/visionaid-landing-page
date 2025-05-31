@@ -39,9 +39,9 @@ const Team = () => {
       ),
       social: {
         twitter: "#",
-        github: "#",
-        linkedin: "#",
-        email: "binyam@visionaid.com",
+        github: "https://github.com/BinyamMamo",
+        linkedin: "https://www.linkedin.com/in/binyammamo",
+        email: "binyammamo01@gmail.com",
       },
     },
     {
@@ -56,9 +56,9 @@ const Team = () => {
       ),
       social: {
         twitter: "#",
-        github: "#",
+        github: "https://github.com/dagimed",
         linkedin: "#",
-        email: "dagim@visionaid.com",
+        email: "dagimedhanit@gmail.com",
       },
     },
     {
@@ -73,7 +73,7 @@ const Team = () => {
       ),
       social: {
         twitter: "#",
-        github: "#",
+        github: "https://github.com/samueldereje96",
         linkedin: "#",
         email: "michael@visionaid.com",
       },
